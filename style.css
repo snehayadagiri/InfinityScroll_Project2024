@@ -1,8 +1,23 @@
+/* The below font style is downloaded from https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 html {
     box-sizing: border-box; 
 }
 
 body {
     margin: 0;
-    min-height: 100vh;
+    /* the font family we added again here to make sure if import url fails to download the fonts*/
+    font-family: Bebas Neue, sans-serif;
+    background-color: whitesmoke;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
