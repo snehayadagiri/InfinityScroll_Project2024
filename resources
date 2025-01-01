@@ -1,4 +1,18 @@
 The loader image is downloaded from below link in the from of Svg Animated.
 https://loading.io/
+Steps to download Image:
+-> Choose any image of your choice and the page lets you to customize your own styles.
+-> Once done,click download option -> select SVG(scalable vector graphics) and Animated.
+->promoted to login (although its free)
+->click SVG and download it. Rename to loader.svg and open with visual studio code/on any other editor you prefer.
+                                 ----------*-----------
 
 The font is used from https://fonts.google.com/.-> this is added in style.css
+-> Select Font -> click on Embed-> click import and copy style and paste in style.css
+
+                                 ----------*-----------
+https://unsplash.com/ 
+The above website is to download unlimited photos
+
+https://unsplash.com/documentation
+To connect to the API to get the images

@@ -8,7 +8,6 @@ html {
 
 body {
     margin: 0;
-    /* the font family we added again here to make sure if import url fails to download the fonts*/
     font-family: Bebas Neue, sans-serif;
     background-color: whitesmoke;
 
@@ -20,4 +19,45 @@ h1 {
     margin-bottom: 15px;
     font-size: 40px;
     letter-spacing: 5px;
+}
+
+/* Loader */
+
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* child of the class loader */
+.loader img {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ /* without transfor setting the image will not be centered when the page is minimized */
+}
+
+/* Image Container */
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Media Query large Smart Phone */
+@media screen and (max-width: 600px){
+    h1 {
+        font-size: 20px;
+    }
+    
+    .image-container {
+        margin: 10px;
+    }
 }
